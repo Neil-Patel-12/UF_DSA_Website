@@ -1,3 +1,39 @@
+html {
+    margin: 0px;
+}
+
 body {
     background-color: #faedcd;
+}
+
+.page-container {
+    margin: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/*<--- main --->*/
+
+.main-page {
+    width: 77.5%;
+}
+
+.general-info {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.learning {
+    padding: 15px 30px;
+}
+
+.title {
+    color: royalblue;
+}
+
+/*<--- aside --->*/
+
+.aside {
+    overflow-y: scroll;
+    width: 22.5%;
 }
