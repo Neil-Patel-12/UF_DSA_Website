@@ -4,6 +4,7 @@ html {
 
 body {
     background-color: #faedcd;
+    margin: 0px;
 }
 
 .page-container {
@@ -18,13 +19,29 @@ body {
     width: 77.5%;
 }
 
+.group {
+    padding-top: 28px;
+}
+
 .general-info {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 0px 32px;
+}
+
+.general-info h2 {
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+
+.note {
+    background-color: #caf0f8;
+    padding: 16px;
+    border-left: 10px solid #90e0ef;
+    margin: 16px 0px;
+    border-radius: 4px;
 }
 
 .learning {
-    padding: 15px 30px;
+    padding: 16px 32px;
 }
 
 .title {
@@ -34,6 +51,41 @@ body {
 /*<--- aside --->*/
 
 .aside {
+    background-color: #ccd5ae;
     overflow-y: scroll;
-    width: 22.5%;
+    width: 23%;
+    min-width: 280px;
+}
+
+.page-aside-nav-container {
+    padding: 24px 16px;
+}
+
+
+
+/* <--- ending ---> */
+
+.project-links {
+    padding: 0px 32px;
+    margin: 32px 8px 16px 8px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid black;
+    border-radius: 60px;
+}
+
+.logo {
+    padding-top: 4px;
+}
+
+.project-links a {
+    margin: 0px 16px;
+}
+
+.about-page {
+    padding: 24px 16px;
+    margin: 16px 8px;
+    border: 1px solid black;
+    border-radius: 30px;
 }
