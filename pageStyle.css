@@ -59,9 +59,23 @@ body {
 
 .page-aside-nav-container {
     padding: 24px 16px;
+    display: flex;
+    flex-direction: column;
 }
 
+.big-title {
+    margin: 16px 0px;
+}
 
+.small-title {
+    margin: 0px 20px;
+    padding: 0px;
+    /* trying to remove padding here for the ul elements*/
+}
+
+.li-nav-item {
+    margin-bottom: 12.800px;
+}
 
 /* <--- ending ---> */
 
