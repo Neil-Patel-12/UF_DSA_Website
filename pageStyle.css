@@ -83,6 +83,7 @@ body {
     padding: 0px 32px;
     margin: 32px 8px 16px 8px;
     display: flex;
+    /*main axis and cross axis top to bottom*/
     justify-content: center;
     align-content: center;
     border: 1px solid black;
