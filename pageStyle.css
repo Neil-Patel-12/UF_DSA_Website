@@ -51,7 +51,7 @@ body {
 /*<--- aside --->*/
 
 .aside {
-    background-color: #ccd5ae;
+    background-color: #EB442C;
     overflow-y: scroll;
     width: 23%;
     min-width: 280px;
@@ -75,6 +75,11 @@ body {
 
 .li-nav-item {
     margin-bottom: 12.800px;
+    color: white;
+}
+
+a {
+    color: white;
 }
 
 /* <--- ending ---> */
